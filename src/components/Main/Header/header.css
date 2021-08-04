@@ -1,0 +1,43 @@
+.header {
+  height: 41rem;
+  background-image: url("./images/header-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.header__logo {
+  padding-top: 1.5rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__title {
+  width: 36.5rem;
+  margin-top: 3rem;
+  font-size: 3.2rem;
+  line-height: 3.75rem;
+  font-weight: 400;
+}
+
+.header__subtitle {
+  width: 36.25rem;
+  margin: 1.5rem 0 2rem;
+  font-size: 1.4rem;
+}
+
+.header__img-phone {
+  margin-right: 3.75rem;
+  width: 22.5rem;
+  height: 35.25rem;
+}
+/*# sourceMappingURL=header.css.map */

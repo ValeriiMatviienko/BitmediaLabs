@@ -1,0 +1,52 @@
+.users-statistics {
+  width: 90rem;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.users-statistics__header {
+  height: 4.5rem;
+  font-size: 2.5rem;
+  line-height: 4.5rem;
+  color: #ffffff;
+  background: #3a80ba;
+}
+
+.users-statistics__content {
+  min-height: calc(100vh - 8rem);
+}
+
+.users-statistics__footer {
+  height: 3.5rem;
+  background: #1c3b55;
+  color: #ffffff;
+}
+
+.users-statistics__footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3.5rem;
+}
+
+.users-statistics__logo-footer {
+  font-weight: 400;
+}
+
+.users-statistics__themeTags, .users-statistics__copyrights {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+/*# sourceMappingURL=usersStatistics.css.map */

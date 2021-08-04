@@ -1,0 +1,63 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixin.scss';
+
+.footer {
+  height: 11.5rem;
+
+  background-image: url('./img/footer-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $white;
+
+  &__content {
+    @include flexColumn;
+  }
+
+  &__top {
+    position: relative;
+  }
+
+  &__input {
+    width: 36.25rem;
+    height: 4rem;
+    margin-top: 1.625rem;
+    box-sizing: border-box;
+    padding: 0 12.25rem 0 1.25rem;
+
+    font-size: 1rem;
+    line-height: 1.625rem;
+
+    border-radius: 0.625rem;
+    border: 1px solid #f1f1f1;
+    color: $grey;
+    outline: none;
+
+    &::placeholder {
+      font-size: 1rem;
+      line-height: 1.625rem;
+      letter-spacing: 0.04em;
+
+      color: #b9b9b9;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 1.875rem;
+    right: 0.25rem;
+  }
+
+  &__bottom {
+    margin-top: 1.5rem;
+    width: 73.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__themeTags,
+  &__copyrights {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}

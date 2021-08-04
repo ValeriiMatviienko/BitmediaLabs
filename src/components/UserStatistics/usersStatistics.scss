@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+
+.users-statistics {
+  width: 90rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    height: 4.5rem;
+
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+
+    color: $white;
+    background: $blue;
+  }
+
+  &__content {
+    min-height: calc(100vh - 8rem);
+  }
+
+  &__footer {
+    height: 3.5rem;
+
+    background: $us-st-footer;
+    color: $white;
+  }
+
+  &__footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+  }
+
+  &__logo-footer {
+    font-weight: 400;
+  }
+
+  &__themeTags,
+  &__copyrights {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}

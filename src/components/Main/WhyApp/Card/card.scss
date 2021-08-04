@@ -1,0 +1,39 @@
+@import '../../../../styles/variables';
+
+.card {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  text-align: center;
+
+  width: 23.75rem;
+  height: 20.25rem;
+
+  border-radius: 2rem;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.16);
+
+  &:hover {
+    box-shadow: 0 0.35rem 1.25rem rgba(0, 0, 0, 0.26);
+  }
+
+  &__img {
+    width: 6.625rem;
+    height: 6rem;
+    margin: 3rem 0 0;
+  }
+
+  &__title {
+    margin: 2.5rem 0 0;
+    color: $black;
+  }
+
+  &__text {
+    width: 20rem;
+    margin: 1rem 0 0;
+    
+    font-size: 1rem;
+    line-height: 1.5rem;    
+
+    color: $grey;
+  }
+}

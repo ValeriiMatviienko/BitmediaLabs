@@ -1,0 +1,65 @@
+.wrapper-btn {
+  position: relative;
+  width: 9.625rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+}
+
+.btn,
+.bottom-layer {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: #3a80ba;
+  background: #ffffff;
+  z-index: 2;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.btn:hover {
+  top: -2px;
+}
+
+.btn:active {
+  top: 0;
+}
+
+.bottom-layer {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #ffffff), to(#7e7e7e));
+  background: linear-gradient(#ffffff 80%, #7e7e7e);
+  top: 0;
+  z-index: 1;
+}
+
+.blueBlock_mod {
+  width: 13.75rem;
+}
+
+.packages_mod,
+.footer_mod {
+  background: #3a80ba;
+  color: #ffffff;
+}
+
+.packages_mod .bottom-layer,
+.footer_mod .bottom-layer {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #3a80ba), to(#185486));
+  background: linear-gradient(#3a80ba 80%, #185486);
+}
+
+.packages_mod {
+  width: 13.75rem;
+}
+
+.footer_mod {
+  width: 11rem;
+}
+/*# sourceMappingURL=button.css.map */

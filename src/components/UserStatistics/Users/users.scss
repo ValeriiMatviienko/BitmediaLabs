@@ -1,0 +1,85 @@
+@import '../../../styles/variables';
+
+.users {
+  &__links {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  &__mp-link a {
+    text-decoration: none;
+    color: $grey;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  &__img {
+    margin: 0 0.5rem;
+  }
+
+  &__current-link {
+    color: $blue;
+  }
+
+  &__title {
+    margin-top: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+.table {
+  margin-top: 1rem;
+  width: 73.75rem;
+  text-align: left;
+
+  &__head {
+    background: $blue;
+    color: $white;
+  }
+
+  &__tr-head {
+    height: 3rem;
+    box-sizing: border-box;
+  }
+
+  &__th {
+    padding: 0 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+
+    &:first-child {
+      border-top-left-radius: 0.5rem;
+    }
+
+    &:last-child {
+      border-top-right-radius: 0.5rem;
+    }
+  }
+
+  &__tr-body {
+    cursor: pointer;
+    transition: 0.1s;
+
+    &:nth-child(odd) {
+      background: $tr-odd;
+    }
+
+    &:nth-child(even) {
+      background: $tr-even;
+    }
+
+    &:hover {
+      background: $blue;
+      color: $white;
+    }
+  }
+
+  &__td {
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1;
+  }
+}

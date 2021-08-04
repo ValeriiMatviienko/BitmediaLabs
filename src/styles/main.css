@@ -1,0 +1,27 @@
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.app {
+  max-width: 90rem;
+  min-width: 620px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 73.75rem;
+  margin: auto;
+}
+/*# sourceMappingURL=main.css.map */

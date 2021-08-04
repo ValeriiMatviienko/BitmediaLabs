@@ -1,0 +1,84 @@
+.users__links {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.users__mp-link a {
+  text-decoration: none;
+  color: #7e7e7e;
+}
+
+.users__mp-link a:hover {
+  color: #3a80ba;
+}
+
+.users__img {
+  margin: 0 0.5rem;
+}
+
+.users__current-link {
+  color: #3a80ba;
+}
+
+.users__title {
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
+
+.table {
+  margin-top: 1rem;
+  width: 73.75rem;
+  text-align: left;
+}
+
+.table__head {
+  background: #3a80ba;
+  color: #ffffff;
+}
+
+.table__tr-head {
+  height: 3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.table__th {
+  padding: 0 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.table__th:first-child {
+  border-top-left-radius: 0.5rem;
+}
+
+.table__th:last-child {
+  border-top-right-radius: 0.5rem;
+}
+
+.table__tr-body {
+  cursor: pointer;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.table__tr-body:nth-child(odd) {
+  background: #fbfbfb;
+}
+
+.table__tr-body:nth-child(even) {
+  background: #f1f1f1;
+}
+
+.table__tr-body:hover {
+  background: #3a80ba;
+  color: #ffffff;
+}
+
+.table__td {
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1;
+}
+/*# sourceMappingURL=users.css.map */

@@ -1,0 +1,65 @@
+@import '../../../styles/variables';
+
+.wrapper-btn {
+  position: relative;
+  width: 9.625rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+}
+
+.btn,
+.bottom-layer {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  font-size: 1rem;
+
+  border: none;
+  border-radius: 0.5rem;
+  color: $blue;
+  background: $white;
+
+  z-index: 2;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.btn:hover {
+  top: -2px;
+}
+
+.btn:active {
+  top: 0;
+}
+
+.bottom-layer {
+  background: linear-gradient($white 80%, $grey);
+  top: 0;
+  z-index: 1;
+}
+
+.blueBlock_mod {
+  width: 13.75rem;
+}
+
+.packages_mod,
+.footer_mod {
+  background: $blue;
+  color: $white;
+
+  & .bottom-layer {
+    background: linear-gradient($blue 80%, #185486);
+  }
+}
+
+.packages_mod {
+  width: 13.75rem;
+}
+
+.footer_mod {
+  width: 11rem;
+}

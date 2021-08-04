@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,SAAS,CAAC;EACR,MAAM,EAAE,SAAS;CAyBlB;;AAvBE,AAAD,kBAAU,CAAC;EELX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;CFIjB;;AAEA,AAAD,gBAAQ,CAAC;EACP,KAAK,EAAE,QAAQ;EACf,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,QAAQ;EAEhB,KAAK,ECXD,OAAO;CDYZ;;AAEA,AAAD,mBAAW,CAAC;EACV,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,UAAU;EAElB,KAAK,ECpBF,OAAO;CDqBX;;AAEA,AAAD,gBAAQ,CAAC;EACP,MAAM,EAAE,UAAU;CACnB",
+    "sources": [
+        "whyApp.scss",
+        "../../../styles/_variables.scss",
+        "../../../styles/mixin.scss"
+    ],
+    "names": [],
+    "file": "whyApp.css"
+}

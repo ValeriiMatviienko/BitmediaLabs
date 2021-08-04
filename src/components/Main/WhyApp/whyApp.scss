@@ -1,0 +1,30 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixin.scss';
+
+.whyAppCo {
+  height: 38.625rem;
+
+  &__content {
+    @include flexColumn;
+  }
+
+  &__title {
+    width: 36.25rem;
+    text-align: center;
+    margin: 1rem 0 0;
+
+    color: $black;
+  }
+
+  &__subtitle {
+    width: 45rem;
+    text-align: center;
+    margin: 1.5rem 0 0;
+
+    color: $grey;
+  }
+
+  &__cards {
+    margin: 2.5rem 0 0;
+  }
+}

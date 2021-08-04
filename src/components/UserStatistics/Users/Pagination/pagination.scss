@@ -1,0 +1,54 @@
+@import '../../../../styles/variables';
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+    padding: 0 1.5rem;
+  }
+
+  &__list-item {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+
+    font-size: 1rem;
+    line-height: 2.5rem;
+
+    border: 2px solid $tr-even;
+    border-radius: 0.5rem;
+    color: $black;
+    list-style: none;
+    cursor: pointer;
+
+    &:hover {
+      background: $blue;
+      color: $white;
+    }
+  }
+
+  &__prev,
+  &__next {
+    cursor: pointer;
+  }
+
+  &__arrow-prev,
+  &__arrow-next,
+  &__arrow-prev-act,
+  &__arrow-next-dis {
+    height: 1.5rem;
+  }
+
+  &__arrow-prev-act,
+  &__arrow-next-dis {
+    transform: rotate(180deg);
+  }
+}
