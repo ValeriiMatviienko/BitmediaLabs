@@ -2,7 +2,7 @@
   "name": "bitmedia-labs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ValeriiMatviienko/bitmedia-labs",
+  "homepage": "https://ValeriiMatviienko.github.io/bitmedia-labs",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
